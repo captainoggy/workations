@@ -1,0 +1,37 @@
+{
+  "name": "workcation",
+  "private": true,
+  "dependencies": {
+    "@inertiajs/inertia": "^0.10.1",
+    "@inertiajs/inertia-vue": "^0.7.2",
+    "@inertiajs/progress": "^0.2.7",
+    "@rails/ujs": "^6.1.5",
+    "@rails/webpacker": "^5.4.3",
+    "@tailwindcss/custom-forms": "^0.2.1",
+    "autoprefixer": "^9",
+    "postcss": "^8",
+    "tailwindcss": "^1.9.6",
+    "timeago.js": "^4.0.2",
+    "vue": "^2.6.14",
+    "vue-loader": "^15.9.8",
+    "vue-meta": "^2.4.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  }
+}
